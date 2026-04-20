@@ -1,7 +1,7 @@
 :root {
-    --primary: #00b7af;
+    --primary: #2ecc71;
     --dark: #10181f;
-    --light: #ffffff;
+    --light: #f0fff4;
     --secondary: #6a7071;
     --glass: rgba(16, 24, 31, 0.7);
 }
@@ -49,7 +49,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.8), transparent);
+    background: linear-gradient(to bottom, rgba(240, 255, 244, 0.8), transparent);
 }
 
 .clock-section #time {
@@ -67,7 +67,7 @@ header {
 
 .weather-section {
     text-align: right;
-    background: rgba(0, 183, 175, 0.1);
+    background: rgba(46, 204, 113, 0.1);
     padding: 1rem 2rem;
     border-radius: 15px;
     backdrop-filter: blur(10px);
