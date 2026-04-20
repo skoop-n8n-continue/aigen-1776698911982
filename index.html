@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>Digital Signage Dashboard</title>
+    <link rel="stylesheet" href="styles.css?v=s8n2x1">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Background Layer -->
+        <div class="background-overlay"></div>
+        <img src="https://skoop-dev-code-agent.s3.us-east-1.amazonaws.com/skoop-n8n-continue%2Faigen-1776698911982%2Fassets%2Fsignage_bg-1776698987444.png" class="bg-image" alt="Background">
+
+        <!-- Header: Time & Weather -->
+        <header>
+            <div class="clock-section">
+                <div id="time">00:00</div>
+                <div id="date">Monday, January 1</div>
+            </div>
+            <div class="weather-section">
+                <div id="weather-temp">72°F</div>
+                <div id="weather-desc">Sunny</div>
+            </div>
+        </header>
+
+        <!-- Main Content: Welcome Message -->
+        <main>
+            <div class="welcome-container">
+                <h1 id="welcome-msg">Welcome to Our Office</h1>
+                <p id="sub-msg">Innovation starts here.</p>
+            </div>
+        </main>
+
+        <!-- Footer: News Ticker -->
+        <footer>
+            <div class="ticker-label">LATEST NEWS</div>
+            <div class="ticker-wrap">
+                <div class="ticker" id="news-ticker">
+                    <span class="ticker-item">Loading latest updates...</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js?v=s8n2x1"></script>
+</body>
+</html>
