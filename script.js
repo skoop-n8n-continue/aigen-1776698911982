@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Weather Mock
     function updateWeather() {
-        const temps = ['68°F', '72°F', '75°F', '70°F'];
+        const temps = ['20°C', '22°C', '24°C', '21°C'];
         const desc = ['Sunny', 'Partly Cloudy', 'Clear Sky', 'Breezy'];
         const randomIdx = Math.floor(Math.random() * temps.length);
 
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Welcome Message Rotation (Optional for dynamic feel)
     const welcomeMsgs = [
-        { main: "Welcome to Our Office", sub: "Innovation starts here." },
+        { main: "Welcome to The Skoop", sub: "Innovation starts here." },
         { main: "Building the Future", sub: "Together we achieve more." },
         { main: "Excellence in Motion", sub: "Dedicated to your success." }
     ];
